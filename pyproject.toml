@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dlcv"
+version = "0.4"
+authors = [
+  { name="Morris Florek", email="morris.benedikt.florek@uni-weimar.de" },
+]
+description = "Fourth DLCV assignment package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib",
+    "scipy",
+    "tqdm",
+    "scikit-learn",
+    "seaborn"
+]
