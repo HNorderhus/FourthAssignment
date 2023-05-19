@@ -115,7 +115,7 @@ def ResNet20(img_channel=3, num_classes=1000):
     return ResNet(block, [2, 3, 4], img_channel, num_classes)
     
 def ResNet14(img_channel=3, num_classes=1000):
-    return ResNet(block, [2, 6, 6], img_channel, num_classes)    
+    return ResNet(block, [2, 4, 4], img_channel, num_classes)    
 
 def ResNet8(img_channel=3, num_classes=1000):
     return ResNet(block, [1, 1, 1], img_channel, num_classes)
